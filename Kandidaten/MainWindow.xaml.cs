@@ -25,6 +25,5 @@ namespace Kandidaten
         {
             InitializeComponent();
         }
-
     }
 }
