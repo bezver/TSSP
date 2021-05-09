@@ -1,0 +1,5 @@
+C:\Users\bezve\Desktop\TSPP\TSSP\Kandidaten\obj\Debug\netcoreapp3.1\Kandidaten.csprojAssemblyReference.cache
+C:\Users\bezve\Desktop\TSPP\TSSP\Kandidaten\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\bezve\Desktop\TSPP\TSSP\Kandidaten\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\bezve\Desktop\TSPP\TSSP\Kandidaten\obj\Debug\netcoreapp3.1\Kandidaten_MarkupCompile.cache
+C:\Users\bezve\Desktop\TSPP\TSSP\Kandidaten\obj\Debug\netcoreapp3.1\Kandidaten_MarkupCompile.lref
