@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bezve\\Desktop\\TSPP\\TSSP\\Kandidaten\\Kandidaten.csproj": {}
+    "D:\\Vaps\\TSPP\\Kandidaten\\Kandidaten.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bezve\\Desktop\\TSPP\\TSSP\\Kandidaten\\Kandidaten.csproj": {
+    "D:\\Vaps\\TSPP\\Kandidaten\\Kandidaten.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bezve\\Desktop\\TSPP\\TSSP\\Kandidaten\\Kandidaten.csproj",
+        "projectUniqueName": "D:\\Vaps\\TSPP\\Kandidaten\\Kandidaten.csproj",
         "projectName": "Kandidaten",
-        "projectPath": "C:\\Users\\bezve\\Desktop\\TSPP\\TSSP\\Kandidaten\\Kandidaten.csproj",
-        "packagesPath": "C:\\Users\\bezve\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bezve\\Desktop\\TSPP\\TSSP\\Kandidaten\\obj\\",
+        "projectPath": "D:\\Vaps\\TSPP\\Kandidaten\\Kandidaten.csproj",
+        "packagesPath": "C:\\Users\\artes\\.nuget\\packages\\",
+        "outputPath": "D:\\Vaps\\TSPP\\Kandidaten\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\bezve\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\artes\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
