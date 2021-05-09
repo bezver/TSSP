@@ -5,4 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Kandidaten"
         mc:Ignorable="d"
-        Title="Kandidaten" Height="450" Width="800"/>
+        Title="Kandidaten" Height="450" Width="800">
+    <Menu Margin="0,0,0,388" Background="{x:Null}">
+        <MenuItem Header="Файл" AutomationProperties.Name="FileMenuItem">
+            <MenuItem Header="Завантажити" AutomationProperties.Name="LoadDataMenuItem"/>
+            <MenuItem Header="Зберегти" AutomationProperties.Name="SaveDataMenuItem"/>
+        </MenuItem>
+        <MenuItem Header="Абітурієнти" AutomationProperties.Name="EntrantsMenuItem">
+            <MenuItem Header="Редагувати" AutomationProperties.Name="EditDataMenuItem"/>
+            <MenuItem Header="Додати" AutomationProperties.Name="AddDataMenuItem"/>
+        </MenuItem>
+        <MenuItem Header="Пошук" AutomationProperties.Name="SelectMenuItem">
+            <MenuItem Header="Пошук абітурієнтів за прохідним балом" AutomationProperties.Name="SelectXXMenuItem"/>
+            <MenuItem Header="Пошук абітурієнтів за заданим балом і школою" AutomationProperties.Name="SelectXXZZMenuItem"/>
+        </MenuItem>
+        <MenuItem Header="Авторизація" AutomationProperties.Name="AuthMenuItem"/>
+    </Menu>
+    </Window>
