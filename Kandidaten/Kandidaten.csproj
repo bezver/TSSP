@@ -10,4 +10,10 @@
     <PackageReference Include="MySql.Data" Version="8.0.24" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="MySql.Data">
+      <HintPath>bin\Debug\netcoreapp3.1\MySql.Data.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
