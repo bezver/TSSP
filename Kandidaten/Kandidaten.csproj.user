@@ -7,7 +7,45 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="AddEntrant.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AuthorizationForm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ConnectToDBForm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DeleteEntrant.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="XXSelect.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="XX_ZZSelectForm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="AddEntrant.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AuthorizationForm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ConnectToDBForm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DeleteEntrant.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="XXSelect.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="XX_ZZSelectForm.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

@@ -5,20 +5,31 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Kandidaten"
         mc:Ignorable="d"
-        Title="Kandidaten" Height="450" Width="800">
-    <Menu Margin="0,0,0,388" Background="{x:Null}">
-        <MenuItem Header="Файл" AutomationProperties.Name="FileMenuItem">
-            <MenuItem Header="Завантажити" AutomationProperties.Name="LoadDataMenuItem"/>
-            <MenuItem Header="Зберегти" AutomationProperties.Name="SaveDataMenuItem"/>
-        </MenuItem>
-        <MenuItem Header="Абітурієнти" AutomationProperties.Name="EntrantsMenuItem">
-            <MenuItem Header="Редагувати" AutomationProperties.Name="EditDataMenuItem"/>
-            <MenuItem Header="Додати" AutomationProperties.Name="AddDataMenuItem"/>
-        </MenuItem>
-        <MenuItem Header="Пошук" AutomationProperties.Name="SelectMenuItem">
-            <MenuItem Header="Пошук абітурієнтів за прохідним балом" AutomationProperties.Name="SelectXXMenuItem"/>
-            <MenuItem Header="Пошук абітурієнтів за заданим балом і школою" AutomationProperties.Name="SelectXXZZMenuItem"/>
-        </MenuItem>
-        <MenuItem Header="Авторизація" AutomationProperties.Name="AuthMenuItem"/>
-    </Menu>
-    </Window>
+        Title="Kandidaten" Height="450" Width="400" Loaded="InfoKandidatenForm_Loaded" Icon="/icon.png">
+    <Grid>
+        <Menu Name="MainMenu" HorizontalAlignment="Left" VerticalAlignment="Top" Width="800" BorderThickness="1" Background="{x:Null}">
+            <MenuItem Header="Файл">
+                <MenuItem Header="Завантажити" Click="ConnectDBMenuItem_Click"/>
+                <MenuItem Header="Зберегти" Click="CreateWordFileMenuItem_Click"/>
+            </MenuItem>
+            <MenuItem Header="Абітурієнти" >
+                <MenuItem Header="Додати" Click="AddDataMenuItem_Click"/>
+                <MenuItem Header="Видалити" Click="DeleteEntrantMenuItem_Click"/>
+            </MenuItem>
+            <MenuItem Header="Пошук">
+                <MenuItem Header="Пошук абітурієнтів за прохідним балом" Click="XXSearchMenuItem_Click"/>
+                <MenuItem Header="Пошук абітурієнтів за заданим балом і школою" Click="XX_ZZSearchMenuItem_Click"/>
+            </MenuItem>
+            <MenuItem Header="Авторизація" Click="AuthorizationMenuItem_Click"/>
+        </Menu>
+        <DataGrid x:Name="EntrantsListSet" HorizontalAlignment="Center" Margin="0,25,0,0"
+                  VerticalAlignment="Top" AutoGenerateColumns="False" ItemsSource="{Binding}" IsReadOnly="True">
+            <DataGrid.Columns >
+                <DataGridTextColumn Header = "Прізвище" Binding = "{Binding secondName}" Width="Auto"/>
+                <DataGridTextColumn Header = "Ім'я" Binding = "{Binding firstName}" Width="Auto"/>
+                <DataGridTextColumn Header = "Середній бал" Binding = "{Binding averageMark}" Width="Auto"/>
+                <DataGridTextColumn Header = "Номер школи" Binding = "{Binding school}" Width="Auto"/>
+            </DataGrid.Columns >
+        </DataGrid>
+    </Grid>
+</Window>

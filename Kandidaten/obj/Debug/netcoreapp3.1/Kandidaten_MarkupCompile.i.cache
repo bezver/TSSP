@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
 C:\Users\bezve\Desktop\TSPP\TSSP\Kandidaten\App.xaml
-11407045341
+7893007450
 
-8-159320867
-2001367765187
-MainWindow.xaml;
+14-968577019
+203-1097151618
+AddEntrant.xaml;AuthorizationForm.xaml;ConnectToDBForm.xaml;DeleteEntrant.xaml;MainWindow.xaml;XXSelect.xaml;XX_ZZSelectForm.xaml;
 
 False
 

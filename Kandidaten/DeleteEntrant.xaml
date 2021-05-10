@@ -1,0 +1,31 @@
+﻿<Window x:Class="Kandidaten.DeleteEntrant"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kandidaten"
+        mc:Ignorable="d"
+        Title="DeleteEntrant" Height="300" Width="400" Loaded="Window_Loaded">
+    <Grid>
+        <TextBox x:Name="firstNameTextBox" HorizontalAlignment="Left" Margin="230,44,0,0" Text=""
+                 TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="16"/>
+        <TextBox x:Name="secondNameTextBox" HorizontalAlignment="Left" Margin="230,79,0,0" Text=""
+                 TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="16"/>
+        <TextBox x:Name="averageMarkTextBox" HorizontalAlignment="Left" Margin="230,114,0,0" Text=""
+                 TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="16"/>
+        <TextBox x:Name="schoolTextBox" HorizontalAlignment="Left" Margin="230,149,0,0" Text=""
+                 TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="16"/>
+        <Label Content="Прізвище" HorizontalAlignment="Left" Margin="50,40,0,0"
+               VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="Ім'я" HorizontalAlignment="Left" Margin="50,75,0,0"
+               VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="Середній бал" HorizontalAlignment="Left" Margin="50,110,0,0"
+               VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="Номер школи" HorizontalAlignment="Left" Margin="50,145,0,0"
+               VerticalAlignment="Top" FontSize="16"/>
+        <Button x:Name="Delete_Button" Content="Видалити" HorizontalAlignment="Left" Margin="60,210,0,0"
+                VerticalAlignment="Top" Height="30" Width="88" FontSize="16" Click="Button_Click_1"/>
+        <Button Content="Скасувати" HorizontalAlignment="Left" Margin="246,210,0,0"
+                VerticalAlignment="Top" Height="30" Width="88" FontSize="16" Click="Button_Click"/>
+    </Grid>
+</Window>

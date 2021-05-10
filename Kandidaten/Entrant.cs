@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Kandidaten
 {
-    class Entrant
+    public class Entrant
     {
         public string firstName   { get; private set; }
         public string secondName  { get; private set; }

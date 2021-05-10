@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Qfe4G3G2Z2linmjxnSZEwJNNNxdr08XcMfdDvZfh0sx1F5J7E2c52SyBCcj0mo9rIPmDpzjcp0Nk9Iyi3ozHbg==",
+  "dgSpecHash": "l3of7NXCHlCQ7pL3mW62WDf9gCRHYycAHACTfNp1aMbHpGFczCW5g9VH4ncl6qdp4nHuyi3vKQ3FSuVUeWZUSQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\bezve\\Desktop\\TSPP\\TSSP\\Kandidaten\\Kandidaten.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bezve\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
+    "C:\\Users\\bezve\\.nuget\\packages\\docx\\1.7.1\\docx.1.7.1.nupkg.sha512",
     "C:\\Users\\bezve\\.nuget\\packages\\google.protobuf\\3.14.0\\google.protobuf.3.14.0.nupkg.sha512",
     "C:\\Users\\bezve\\.nuget\\packages\\k4os.compression.lz4\\1.1.11\\k4os.compression.lz4.1.1.11.nupkg.sha512",
     "C:\\Users\\bezve\\.nuget\\packages\\k4os.compression.lz4.streams\\1.1.11\\k4os.compression.lz4.streams.1.1.11.nupkg.sha512",
@@ -24,5 +25,16 @@
     "C:\\Users\\bezve\\.nuget\\packages\\system.text.encoding.codepages\\4.4.0\\system.text.encoding.codepages.4.4.0.nupkg.sha512",
     "C:\\Users\\bezve\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DocX 1.7.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "DocX",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }
