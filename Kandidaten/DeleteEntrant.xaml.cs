@@ -27,8 +27,8 @@ namespace Kandidaten
             try
             {
 
-                string firstName = this.firstNameTextBox.Text;
-                string secondName = this.secondNameTextBox.Text;
+                string firstName = this.secondNameTextBox.Text;
+                string secondName = this.firstNameTextBox.Text;
                 double averageMark = Convert.ToDouble(this.averageMarkTextBox.Text);
                 uint schol = Convert.ToUInt32(this.schoolTextBox.Text);
                 MainWindow.db.DeleteEntrant(new Entrant(firstName, secondName, averageMark, schol));
